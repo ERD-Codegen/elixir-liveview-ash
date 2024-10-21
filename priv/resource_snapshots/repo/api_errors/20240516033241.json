@@ -1,0 +1,27 @@
+{
+  "id": {
+    "type": "integer",
+    "primaryKey": true,
+    "autoIncrement": true
+  },
+  "created_at": {
+    "type": "datetime",
+    "notNull": true
+  },
+  "updated_at": {
+    "type": "datetime",
+    "notNull": true
+  },
+  "error_code": {
+    "type": "string",
+    "notNull": true
+  },
+  "error_message": {
+    "type": "string",
+    "notNull": true
+  },
+  "timestamp": {
+    "type": "datetime",
+    "notNull": true
+  }
+}
