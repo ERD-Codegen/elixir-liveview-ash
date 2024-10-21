@@ -1,0 +1,36 @@
+{
+  "id": {
+    "type": "integer",
+    "primaryKey": true,
+    "autoIncrement": true
+  },
+  "created_at": {
+    "type": "datetime"
+  },
+  "updated_at": {
+    "type": "datetime"
+  },
+  "title": {
+    "type": "string",
+    "maxLength": 255,
+    "notNull": true
+  },
+  "author": {
+    "type": "string",
+    "maxLength": 255,
+    "notNull": true
+  },
+  "publisher": {
+    "type": "string",
+    "maxLength": 255,
+    "notNull": true
+  },
+  "year_of_publication": {
+    "type": "integer",
+    "notNull": true
+  },
+  "number_of_pages": {
+    "type": "integer",
+    "notNull": true
+  }
+}
